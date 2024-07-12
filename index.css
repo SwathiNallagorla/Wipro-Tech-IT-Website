@@ -1,0 +1,185 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.social-links {
+    height: 100%;
+    display: flex;
+    gap: 0px;
+   
+}
+.social-links a {
+    text-decoration: none;
+    color: white;
+    margin-top: -2px;
+    font-size: 30px;
+    border-radius: 21%;
+    padding: 4px 2px;
+    margin-left:20px;
+}
+.navbar {
+    background-color:#98517c ;
+    border: 2px solid black;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.links {
+    background-color: rgb(164, 100, 199);
+}
+
+.content {
+    background-color: rgb(195, 165, 118);
+}
+p{
+    text-align: justify;
+}
+.p2 {
+    margin-top: 20px;
+    font-family:Lucida Calligraphy;
+    color: rgb(29, 35, 37);
+    font-size:16px;
+}
+
+.images {
+    background-color: #9fc9c9;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-box h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+}
+
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+    line-height: 2.0;
+}
+
+    .footer-box ul li a {
+        text-decoration: none;
+        color: black;
+        line-height: 2.5;
+        font-weight: 100;
+    }
+@media screen and (min-width:64px) and (max-width:426px) {
+    .logo {
+        width: 10%;
+        height: 10%;
+    }    
+    .footerlogo {
+        width: 40%;
+        height: 40%;
+        margin-left:80px;
+    }
+    .footer-box p,ul,h2 {
+       
+        text-align:center;
+    }  
+   .images img
+   {
+       width:80%;
+       height:30vh;
+       margin:20px 0 20px 20px;
+   }
+    .linklogo
+    {
+        margin-left:70px;
+    }
+}
+
+
+@media screen and (min-width:501px) and (max-width:769px) {
+    .logo {
+        width: 10%;
+        height: 10%;
+    }
+    .footerlogo {
+        width: 20%;
+        height: 10%;
+    }
+    .images img {
+        margin: 20px;
+        width: 80%;
+        height: 30vh;
+    }
+    .linklogo {
+        margin-left: 10px;
+    }
+   
+    
+}
+@media screen and (min-width:770px) and (max-width:1300px) {
+    .logo {
+        width: 10%;
+        height: 5%;
+        margin-right: 50px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    .navv {
+        margin-left: 400px;
+    }
+
+    .footerlogo {
+        width: 60%;
+        height: 30%;
+    }
+
+    .links a {
+        padding-top: 100px;
+        color: black;
+    }
+
+    .images img {
+        margin: 20px;
+        width: 80%;
+        height: 30vh;
+    }
+}
+@media screen and (min-width:1301px) and (max-width:2561px) {
+    .logo {
+        width: 5%;
+        height: 5%;
+        margin-left:20px;
+    }
+    .navv {
+        margin-left: 1000px;
+    }
+
+    .nav-link {
+        margin-right: 30px;
+    } 
+    .footerlogo {
+        width: 40%;
+        height: 10%;
+    }
+    .images img {
+        margin: 20px;
+        width: 80%;
+        height: 30vh;
+        margin-left:60px;
+    }
+
+}
+
